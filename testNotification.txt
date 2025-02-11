@@ -1,0 +1,7 @@
+curl -X POST "https://exp.host/--/api/v2/push/send" -H "Content-Type: application/json" -d "@data.json"
+
+
+curl -X POST "https://fcm.googleapis.com/fcm/send" \
+-H "Content-Type: application/json" \
+-H "Authorization: key=354363261954" \
+-d "@data.json"
